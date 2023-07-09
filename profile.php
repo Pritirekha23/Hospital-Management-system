@@ -80,9 +80,9 @@ else{
 ?>
        
 
-
+<!-- 
         <a href="#"><button style="box-shadow: var(--box-shadow);color: black;black;border-radius: 10px;padding:15px;
-        font-weight:300">MY PROFILE</button></a>
+        font-weight:300">MY PROFILE</button></a> -->
         <a href="logout.php"><button style="box-shadow: var(--box-shadow);color: black;border-radius: 10px;padding:15px;
         font-weight:300">LOG OUT</button></a>
         

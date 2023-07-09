@@ -9,12 +9,21 @@
             margin: 2%;
            
         }
+        body{
+            background: linear-gradient(90deg, #6CB4EE, #007FFF );
+        }
         table,th,tr{
             border: 2px solid black;
             
+          
         }
+       .thh th{
+         background-color: #F1948A;
+       }
         th{
             padding: 10px;
+            background: #40E0D0;
+
         }
         button{
             margin-top: 2%;
@@ -27,14 +36,14 @@
     </style>
 </head>
 <body>
-    
+
     <?php
 include 'dbconnect.php';
 $my_sql=mysqli_query($conn,"SELECT * FROM `patient_registration` ");
 ?>
-<table>
+<table cellspacing="0" cellpading="0" class="tab">
 
-    <tr>
+    <tr class="thh">
         <th>SI NO</th>
         <th>NAME</th>
         <th>ADRS</th>

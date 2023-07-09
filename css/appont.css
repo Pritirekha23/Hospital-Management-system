@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,20 +14,17 @@ position: relative;
 .container{
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: auto;
-    width: 200px;
-border: 2px solid red;
+    width: 300px;
+    
 }
 .container form{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-.container form input{
+   
 
-}
+} */

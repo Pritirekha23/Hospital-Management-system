@@ -3,29 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/appont.css">
+   
     <title>appointment</title>
-    <style>
-        body{
-            background-color: blue;
-        }
-    </style>
+    <!-- <link rel="stylesheet" href="css/appont.css"> -->
+  
+   <style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: linear-gradient(120deg, rgb(75, 183, 241),rgb(72, 237, 72));
+        height: 100vh;
+        overflow: hidden;
+    }
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 285px;
+        background: aqua;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .container label{
+        font-size: 19px;
+        font-weight: 500;
+        color: #2e2e2e;
+        box-sizing: border-box;
+        /* box-shadow: 0 3px 5px gray; */
+    }
+    .container input{
+        outline: none;
+        font-size: 15px;
+        font-weight: 400;
+        border-radius: 5px;
+        color: #333;
+        border: 1px solid wheat;
+        padding: 0 15px;
+        height: 40px;
+        margin: 8px 0;
+    }
+    .container form{
+        padding: 10px 40px;
+        box-sizing: border-box;
+    }
+
+    .btn{
+        height: 50px;
+        width: 50%;
+        margin-top: 4%;
+        margin-left: 27%;
+        margin-right: 45%;
+        border-radius: 10px;
+        color: black;
+        font-size: 1rem;
+        padding: 1%;
+        background-color: rgb(18, 180, 243);
+        border: 2px;
+        cursor: pointer;
+    }
+   
+   </style>
+   
 </head>
 <body>
     <div class="container">
+        <!-- <h1 class="heading"> <span>appointment</span> now </h1>  -->
         <form action="book_insert.php" method="post">
             <label for="name">NAME</label>
-            <input type="text" name="uname" id="" required>
+            <input type="text" name="uname" placeholder="Enter name" id="" required>
             <label for="email">EMAIL</label>
-            <input type="text" name="email" id="" required>
+            <input type="text" name="email" placeholder="Enter email" id="" required>
             <label for="ph">PH NO</label>
-            <input type="text" name="phno" id="" required>
+            <input type="text" name="phno" placeholder="Enter ph no" id="" required>
             <label for="date">DATE</label>
             <input type="date" name="date" id="" required>
             <label for="date">DEASES</label>
-            <input type="text" name="des" id="" required>
+            <input type="text" name="des" id="" placeholder="deases" required>
             <button class="btn">BOOK NOW</button>
         </form>
     </div>
+      
+
+    
 </body>
 </html>

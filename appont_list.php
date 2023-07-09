@@ -10,17 +10,20 @@
            
         }
         body{
-            background-color:rgba(220, 123, 123, 0.4);
+            background: linear-gradient(45deg, #82E0AA, #C39BD3);
            
         }
         table{
             align-items: center;
             background-color:rgba(123, 123, 123, 0.4);
+            
         }
         table,th,tr{
-            border: 2px solid black;
-
-           
+            border: 2px solid black; 
+            background: blanchedalmond;
+        }
+        .tb th{
+            background: #FFFF00;
         }
         th{
             padding: 10px;
@@ -35,9 +38,9 @@
     
     
     ?>
-    <table>
+    <table cellspacing="0" cellpading="0">
     
-        <tr>
+        <tr class="tb">
             <th>SI NO</th>
             <th>NAME</th>
             <th>MOB</th>
