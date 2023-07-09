@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>patient list</title>
     <style>
+        *{
+            margin: 2%;
+           
+        }
         table,th,tr{
             border: 2px solid black;
-           
+            
         }
         th{
             padding: 10px;
         }
         button{
+            margin-top: 2%;
             background-color: red;
             color: white;
             border-radius: 15px;
@@ -22,6 +27,7 @@
     </style>
 </head>
 <body>
+    
     <?php
 include 'dbconnect.php';
 $my_sql=mysqli_query($conn,"SELECT * FROM `patient_registration` ");

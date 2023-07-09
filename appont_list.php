@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APPOINTMENT LIST</title>
     <style>
+        *{
+            margin: 2%;
+           
+        }
+        body{
+            background-color:rgba(220, 123, 123, 0.4);
+           
+        }
+        table{
+            align-items: center;
+            background-color:rgba(123, 123, 123, 0.4);
+        }
         table,th,tr{
             border: 2px solid black;
+
            
         }
         th{
