@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: relative;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    height: auto;
+    width: 200px;
+border: 2px solid red;
+}
+.container form{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.container form input{
+
+}
