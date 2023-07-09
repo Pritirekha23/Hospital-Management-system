@@ -338,10 +338,10 @@ section:nth-child(even){
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); */
     gap: 15rem;
     display: flex;
-   
- 
+    
 } 
- .footerr .box-containerr .box1 h3{
+
+.footerr .box-containerr .box1 h3{
     font-size: 1.7rem;
     color: var(--black);
     padding: 1rem 0;

@@ -16,7 +16,7 @@
     <?php include 'dbconnect.php'?>
 
     <?php
- session_start();
+    session_start();
  
     $email1=$_REQUEST['email'];
    
@@ -70,8 +70,8 @@
        
        <?php   
 if( $email1 == 'arabinda725@gmail.com'){
-echo " <a href='patient_list.php?msg=$email1' style='font-weight:bold;'>PATIENT LIST</a>";
-echo "<a href='appont_list.php' style='font-weight:bold;'>TOTAL APPOINTMENT</a>";
+echo " <a href='patient_list.php?msg=$email1' style='font-weight:400;'>PATIENT LIST</a>";
+echo "<a href='appont_list.php' style='font-weight:400;'>TOTAL APPOINTMENT</a>";
 
 }
 else{
